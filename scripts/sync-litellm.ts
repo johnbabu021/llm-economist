@@ -14,6 +14,9 @@ const dataDir = join(__dirname, "..", "data");
 const LITELLM_URL =
 	"https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json";
 
+const LITELLM_PROVIDERS_URL =
+	"https://raw.githubusercontent.com/BerriAI/litellm/main/provider_endpoints_support.json";
+
 interface LiteLLMEntry {
 	litellm_provider?: string;
 	input_cost_per_token?: number;
@@ -46,6 +49,7 @@ const PROVIDER_MAP: Record<string, string> = {
 	"vertex_ai-anthropic_models": "google-vertex",
 	gemini: "google",
 	bedrock: "amazon-bedrock",
+	bedrock_converse: "amazon-bedrock",
 	azure: "azure-openai",
 	azure_ai: "azure-openai",
 	together_ai: "together-ai",
@@ -59,6 +63,13 @@ const PROVIDER_MAP: Record<string, string> = {
 	replicate: "replicate",
 	perplexity: "perplexity",
 	ai21: "ai21",
+	baseten: "baseten",
+	anyscale: "anyscale",
+	cerebras: "cerebras",
+	sambanova: "sambanova",
+	nvidia_nim: "nvidia",
+	volcengine: "volcengine",
+	aiml: "aiml",
 };
 
 // Models we care about (chat mode, well-known families)
@@ -319,19 +330,24 @@ async function main() {
 			if (maxOut > existing.max_output_tokens) existing.max_output_tokens = maxOut;
 		}
 
-		// Build pricing entry (deduplicate by model+provider)
+		// Build pricing entry — keep all variants with different prices
+		const inputPer1M = Math.round(entry.input_cost_per_token * 1_000_000 * 100) / 100;
+		const outputPer1M = Math.round(entry.output_cost_per_token * 1_000_000 * 100) / 100;
+
 		const existingPricing = pricing.find(
-			(p) => p.model_id === baseModel && p.provider === provider,
+			(p) =>
+				p.model_id === baseModel &&
+				p.provider === provider &&
+				p.input_price_per_1m === inputPer1M &&
+				p.output_price_per_1m === outputPer1M,
 		);
 		if (!existingPricing) {
-			const inputPer1M = entry.input_cost_per_token * 1_000_000;
-			const outputPer1M = entry.output_cost_per_token * 1_000_000;
 			const pricingEntry: NormalizedPricing = {
 				model_id: baseModel,
 				provider,
 				provider_type: DIRECT_PROVIDERS.has(provider) ? "direct" : "aggregator",
-				input_price_per_1m: Math.round(inputPer1M * 100) / 100,
-				output_price_per_1m: Math.round(outputPer1M * 100) / 100,
+				input_price_per_1m: inputPer1M,
+				output_price_per_1m: outputPer1M,
 				last_verified: today,
 			};
 			if (entry.cache_read_input_token_cost) {
@@ -380,6 +396,24 @@ async function main() {
 			2,
 		),
 	);
+
+	// Fetch provider endpoint support data
+	console.log("Fetching provider endpoint support data...");
+	const provRes = await fetch(LITELLM_PROVIDERS_URL);
+	if (provRes.ok) {
+		const provRaw = (await provRes.json()) as any;
+		const providers = provRaw.providers ?? {};
+		const providerEndpoints = Object.entries(providers).map(([slug, data]: [string, any]) => ({
+			id: slug,
+			name: data.display_name ?? slug,
+			url: data.url ?? null,
+			endpoints: data.endpoints ?? {},
+		}));
+		writeFileSync(join(dataDir, "provider-endpoints.json"), JSON.stringify(providerEndpoints, null, 2));
+		console.log(`✅ Provider endpoints: ${providerEndpoints.length} providers`);
+	} else {
+		console.log("⚠️  Could not fetch provider endpoints (non-critical)");
+	}
 
 	console.log(`✅ Synced: ${finalModels.length} models, ${pricing.length} pricing entries`);
 }
