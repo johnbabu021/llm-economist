@@ -1,0 +1,167 @@
+{
+  "gpt-4o": {
+    "release_date": "2024-05-13",
+    "benchmarks": { "mmlu": 88.7, "humaneval": 90.2, "arena_elo": 1260 },
+    "use_case_scores": { "coding": 90, "creative_writing": 85, "summarization": 88, "rag": 89, "agents": 90, "function_calling": 95, "math": 84, "general": 89 }
+  },
+  "gpt-4o-mini": {
+    "release_date": "2024-07-18",
+    "benchmarks": { "mmlu": 82.0, "humaneval": 87.0, "arena_elo": 1200 },
+    "use_case_scores": { "coding": 82, "creative_writing": 78, "summarization": 83, "rag": 84, "agents": 80, "function_calling": 88, "math": 75, "general": 82 }
+  },
+  "gpt-4-turbo": {
+    "release_date": "2024-04-09",
+    "benchmarks": { "mmlu": 86.4, "humaneval": 87.1, "arena_elo": 1240 },
+    "use_case_scores": { "coding": 87, "creative_writing": 84, "summarization": 86, "rag": 87, "agents": 85, "function_calling": 92, "math": 82, "general": 86 }
+  },
+  "gpt-4.1": {
+    "release_date": "2025-04-14",
+    "benchmarks": { "mmlu": 90.2, "humaneval": 93.4, "swe_bench": 54.6, "arena_elo": 1300 },
+    "use_case_scores": { "coding": 95, "creative_writing": 86, "summarization": 90, "rag": 92, "agents": 94, "function_calling": 97, "math": 88, "general": 92 }
+  },
+  "gpt-4.1-mini": {
+    "release_date": "2025-04-14",
+    "benchmarks": { "mmlu": 87.5, "humaneval": 90.8, "arena_elo": 1250 },
+    "use_case_scores": { "coding": 88, "creative_writing": 80, "summarization": 85, "rag": 87, "agents": 86, "function_calling": 92, "math": 82, "general": 86 }
+  },
+  "gpt-4.1-nano": {
+    "release_date": "2025-04-14",
+    "benchmarks": { "mmlu": 80.1, "humaneval": 84.0, "arena_elo": 1180 },
+    "use_case_scores": { "coding": 78, "creative_writing": 72, "summarization": 79, "rag": 80, "agents": 74, "function_calling": 85, "math": 70, "general": 77 }
+  },
+  "o1": {
+    "release_date": "2024-12-17",
+    "benchmarks": { "mmlu": 91.8, "math": 96.4, "arena_elo": 1340 },
+    "use_case_scores": { "coding": 92, "math": 97, "agents": 88, "general": 88 }
+  },
+  "o1-mini": {
+    "release_date": "2024-09-12",
+    "benchmarks": { "mmlu": 85.2, "math": 90.0, "arena_elo": 1260 },
+    "use_case_scores": { "coding": 88, "math": 92, "general": 82 }
+  },
+  "o3": {
+    "release_date": "2025-04-16",
+    "benchmarks": { "mmlu": 92.5, "math": 98.0, "swe_bench": 69.1, "arena_elo": 1370 },
+    "use_case_scores": { "coding": 96, "math": 99, "agents": 94, "general": 93 }
+  },
+  "o3-mini": {
+    "release_date": "2025-01-31",
+    "benchmarks": { "mmlu": 87.0, "math": 92.0, "arena_elo": 1290 },
+    "use_case_scores": { "coding": 90, "math": 94, "agents": 85, "general": 86 }
+  },
+  "o4-mini": {
+    "release_date": "2025-04-16",
+    "benchmarks": { "mmlu": 88.5, "math": 93.4, "swe_bench": 68.2, "arena_elo": 1310 },
+    "use_case_scores": { "coding": 92, "math": 95, "agents": 90, "general": 88 }
+  },
+  "claude-3-5-sonnet": {
+    "release_date": "2024-10-22",
+    "benchmarks": { "mmlu": 88.7, "humaneval": 92.0, "swe_bench": 49.0, "arena_elo": 1270 },
+    "use_case_scores": { "coding": 93, "creative_writing": 88, "summarization": 90, "rag": 91, "agents": 92, "math": 85, "general": 90 }
+  },
+  "claude-3-5-haiku": {
+    "release_date": "2024-10-22",
+    "benchmarks": { "mmlu": 77.5, "humaneval": 82.0, "arena_elo": 1170 },
+    "use_case_scores": { "coding": 80, "creative_writing": 75, "summarization": 79, "rag": 80, "agents": 76, "math": 72, "general": 78 }
+  },
+  "claude-3-opus": {
+    "release_date": "2024-02-29",
+    "benchmarks": { "mmlu": 86.8, "humaneval": 84.9, "arena_elo": 1230 },
+    "use_case_scores": { "coding": 86, "creative_writing": 92, "summarization": 88, "rag": 87, "agents": 85, "math": 80, "general": 87 }
+  },
+  "claude-sonnet-4": {
+    "release_date": "2025-05-22",
+    "benchmarks": { "mmlu": 90.2, "humaneval": 93.0, "swe_bench": 72.7, "arena_elo": 1320 },
+    "use_case_scores": { "coding": 97, "creative_writing": 90, "summarization": 92, "rag": 93, "agents": 96, "math": 89, "general": 93 }
+  },
+  "claude-opus-4": {
+    "release_date": "2025-05-22",
+    "benchmarks": { "mmlu": 92.5, "humaneval": 95.0, "swe_bench": 72.0, "arena_elo": 1350 },
+    "use_case_scores": { "coding": 98, "creative_writing": 95, "summarization": 94, "rag": 95, "agents": 98, "math": 94, "general": 96 }
+  },
+  "gemini-2.5-pro": {
+    "release_date": "2025-03-25",
+    "benchmarks": { "mmlu": 90.8, "humaneval": 91.5, "swe_bench": 63.8, "arena_elo": 1300, "math": 92.0 },
+    "use_case_scores": { "coding": 94, "creative_writing": 82, "summarization": 91, "rag": 94, "agents": 93, "long_context": 98, "math": 95, "general": 92 }
+  },
+  "gemini-2.5-flash": {
+    "release_date": "2025-04-17",
+    "benchmarks": { "mmlu": 86.5, "humaneval": 87.0, "arena_elo": 1240 },
+    "use_case_scores": { "coding": 86, "creative_writing": 78, "summarization": 86, "rag": 87, "agents": 84, "long_context": 95, "math": 83, "general": 85 }
+  },
+  "gemini-2.0-flash": {
+    "release_date": "2025-02-05",
+    "benchmarks": { "mmlu": 85.0, "humaneval": 85.5, "arena_elo": 1220 },
+    "use_case_scores": { "coding": 84, "creative_writing": 76, "summarization": 85, "rag": 86, "agents": 82, "long_context": 95, "math": 80, "general": 83 }
+  },
+  "gemini-1.5-pro": {
+    "release_date": "2024-05-14",
+    "benchmarks": { "mmlu": 85.9, "humaneval": 84.1, "arena_elo": 1210 },
+    "use_case_scores": { "coding": 84, "creative_writing": 80, "summarization": 86, "rag": 88, "long_context": 96, "math": 78, "general": 84 }
+  },
+  "gemini-1.5-flash": {
+    "release_date": "2024-05-14",
+    "benchmarks": { "mmlu": 78.9, "arena_elo": 1170 },
+    "use_case_scores": { "coding": 75, "creative_writing": 72, "summarization": 80, "rag": 82, "long_context": 93, "math": 70, "general": 76 }
+  },
+  "llama-3.3-70b": {
+    "release_date": "2024-12-06",
+    "benchmarks": { "mmlu": 86.0, "humaneval": 88.4, "arena_elo": 1210 },
+    "use_case_scores": { "coding": 86, "creative_writing": 80, "summarization": 84, "rag": 85, "agents": 82, "math": 78, "multilingual": 82, "general": 84 }
+  },
+  "llama-3.1-405b": {
+    "release_date": "2024-07-23",
+    "benchmarks": { "mmlu": 88.6, "humaneval": 89.0, "arena_elo": 1230 },
+    "use_case_scores": { "coding": 88, "creative_writing": 83, "summarization": 86, "rag": 87, "agents": 85, "math": 82, "multilingual": 85, "general": 87 }
+  },
+  "llama-3.1-70b": {
+    "release_date": "2024-07-23",
+    "benchmarks": { "mmlu": 83.6, "humaneval": 80.5, "arena_elo": 1180 },
+    "use_case_scores": { "coding": 82, "creative_writing": 77, "summarization": 81, "rag": 82, "agents": 78, "math": 74, "multilingual": 80, "general": 80 }
+  },
+  "llama-3.1-8b": {
+    "release_date": "2024-07-23",
+    "benchmarks": { "mmlu": 73.0, "humaneval": 72.6, "arena_elo": 1100 },
+    "use_case_scores": { "coding": 70, "creative_writing": 65, "summarization": 72, "rag": 73, "math": 60, "general": 68 }
+  },
+  "deepseek-chat": {
+    "release_date": "2024-12-26",
+    "benchmarks": { "mmlu": 87.1, "humaneval": 89.2, "arena_elo": 1250, "math": 90.2 },
+    "use_case_scores": { "coding": 91, "creative_writing": 79, "summarization": 85, "rag": 86, "agents": 84, "math": 93, "general": 86 }
+  },
+  "deepseek-reasoner": {
+    "release_date": "2025-01-20",
+    "benchmarks": { "mmlu": 90.8, "math": 97.3, "arena_elo": 1280 },
+    "use_case_scores": { "coding": 89, "math": 98, "agents": 78, "general": 82 }
+  },
+  "mistral-large": {
+    "release_date": "2024-11-18",
+    "benchmarks": { "mmlu": 84.0, "humaneval": 85.0, "arena_elo": 1190 },
+    "use_case_scores": { "coding": 84, "creative_writing": 82, "summarization": 83, "rag": 84, "agents": 82, "multilingual": 90, "general": 84 }
+  },
+  "mistral-small": {
+    "release_date": "2024-09-18",
+    "benchmarks": { "mmlu": 78.0, "arena_elo": 1140 },
+    "use_case_scores": { "coding": 76, "creative_writing": 74, "summarization": 77, "rag": 78, "multilingual": 84, "general": 76 }
+  },
+  "mixtral-8x22b": {
+    "release_date": "2024-04-17",
+    "benchmarks": { "mmlu": 77.8, "humaneval": 75.0, "arena_elo": 1140 },
+    "use_case_scores": { "coding": 76, "creative_writing": 74, "summarization": 78, "rag": 79, "multilingual": 85, "general": 76 }
+  },
+  "command-r-plus": {
+    "release_date": "2024-04-04",
+    "benchmarks": { "mmlu": 75.7, "arena_elo": 1120 },
+    "use_case_scores": { "rag": 90, "summarization": 85, "multilingual": 88, "general": 78 }
+  },
+  "command-r": {
+    "release_date": "2024-03-11",
+    "benchmarks": { "mmlu": 68.0, "arena_elo": 1080 },
+    "use_case_scores": { "rag": 85, "summarization": 80, "multilingual": 84, "general": 72 }
+  },
+  "command-a": {
+    "release_date": "2025-03-13",
+    "benchmarks": { "mmlu": 82.0, "arena_elo": 1200 },
+    "use_case_scores": { "coding": 82, "rag": 92, "summarization": 87, "agents": 85, "multilingual": 90, "general": 84 }
+  }
+}

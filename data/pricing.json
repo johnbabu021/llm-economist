@@ -1,0 +1,1260 @@
+[
+  {
+    "model_id": "claude-3-5-haiku",
+    "provider": "amazon-bedrock",
+    "provider_type": "aggregator",
+    "input_price_per_1m": 0.8,
+    "output_price_per_1m": 4,
+    "last_verified": "2026-04-30",
+    "cached_input_price_per_1m": 0.08
+  },
+  {
+    "model_id": "claude-3-5-sonnet",
+    "provider": "amazon-bedrock",
+    "provider_type": "aggregator",
+    "input_price_per_1m": 3,
+    "output_price_per_1m": 15,
+    "last_verified": "2026-04-30",
+    "cached_input_price_per_1m": 0.3
+  },
+  {
+    "model_id": "claude-3-opus",
+    "provider": "amazon-bedrock",
+    "provider_type": "aggregator",
+    "input_price_per_1m": 15,
+    "output_price_per_1m": 75,
+    "last_verified": "2026-04-30",
+    "cached_input_price_per_1m": 1.5
+  },
+  {
+    "model_id": "claude-opus-4",
+    "provider": "bedrock_converse",
+    "provider_type": "aggregator",
+    "input_price_per_1m": 15,
+    "output_price_per_1m": 75,
+    "last_verified": "2026-04-30",
+    "cached_input_price_per_1m": 1.5
+  },
+  {
+    "model_id": "claude-sonnet-4",
+    "provider": "bedrock_converse",
+    "provider_type": "aggregator",
+    "input_price_per_1m": 3,
+    "output_price_per_1m": 15,
+    "last_verified": "2026-04-30",
+    "cached_input_price_per_1m": 0.3
+  },
+  {
+    "model_id": "command-r-plus",
+    "provider": "azure-openai",
+    "provider_type": "aggregator",
+    "input_price_per_1m": 3,
+    "output_price_per_1m": 15,
+    "last_verified": "2026-04-30"
+  },
+  {
+    "model_id": "claude-opus-4",
+    "provider": "azure-openai",
+    "provider_type": "aggregator",
+    "input_price_per_1m": 5,
+    "output_price_per_1m": 25,
+    "last_verified": "2026-04-30",
+    "cached_input_price_per_1m": 0.5
+  },
+  {
+    "model_id": "claude-sonnet-4",
+    "provider": "azure-openai",
+    "provider_type": "aggregator",
+    "input_price_per_1m": 3,
+    "output_price_per_1m": 15,
+    "last_verified": "2026-04-30",
+    "cached_input_price_per_1m": 0.3
+  },
+  {
+    "model_id": "gpt-4o",
+    "provider": "azure-openai",
+    "provider_type": "aggregator",
+    "input_price_per_1m": 0.17,
+    "output_price_per_1m": 0.66,
+    "last_verified": "2026-04-30",
+    "cached_input_price_per_1m": 0.08
+  },
+  {
+    "model_id": "o1",
+    "provider": "azure-openai",
+    "provider_type": "aggregator",
+    "input_price_per_1m": 16.5,
+    "output_price_per_1m": 66,
+    "last_verified": "2026-04-30",
+    "cached_input_price_per_1m": 8.25
+  },
+  {
+    "model_id": "o3",
+    "provider": "azure-openai",
+    "provider_type": "aggregator",
+    "input_price_per_1m": 1.21,
+    "output_price_per_1m": 4.84,
+    "last_verified": "2026-04-30",
+    "cached_input_price_per_1m": 0.61
+  },
+  {
+    "model_id": "gpt-4-turbo",
+    "provider": "azure-openai",
+    "provider_type": "aggregator",
+    "input_price_per_1m": 10,
+    "output_price_per_1m": 30,
+    "last_verified": "2026-04-30"
+  },
+  {
+    "model_id": "gpt-4.1",
+    "provider": "azure-openai",
+    "provider_type": "aggregator",
+    "input_price_per_1m": 2,
+    "output_price_per_1m": 8,
+    "last_verified": "2026-04-30",
+    "cached_input_price_per_1m": 0.5
+  },
+  {
+    "model_id": "mistral-large",
+    "provider": "azure-openai",
+    "provider_type": "aggregator",
+    "input_price_per_1m": 8,
+    "output_price_per_1m": 24,
+    "last_verified": "2026-04-30"
+  },
+  {
+    "model_id": "o4-mini",
+    "provider": "azure-openai",
+    "provider_type": "aggregator",
+    "input_price_per_1m": 1.1,
+    "output_price_per_1m": 4.4,
+    "last_verified": "2026-04-30",
+    "cached_input_price_per_1m": 0.28
+  },
+  {
+    "model_id": "deepseek-v3",
+    "provider": "azure-openai",
+    "provider_type": "aggregator",
+    "input_price_per_1m": 0.58,
+    "output_price_per_1m": 1.68,
+    "last_verified": "2026-04-30"
+  },
+  {
+    "model_id": "deepseek-r1",
+    "provider": "azure-openai",
+    "provider_type": "aggregator",
+    "input_price_per_1m": 1.35,
+    "output_price_per_1m": 5.4,
+    "last_verified": "2026-04-30"
+  },
+  {
+    "model_id": "mistral-small",
+    "provider": "azure-openai",
+    "provider_type": "aggregator",
+    "input_price_per_1m": 1,
+    "output_price_per_1m": 3,
+    "last_verified": "2026-04-30"
+  },
+  {
+    "model_id": "llama3-70b",
+    "provider": "amazon-bedrock",
+    "provider_type": "aggregator",
+    "input_price_per_1m": 3.18,
+    "output_price_per_1m": 4.2,
+    "last_verified": "2026-04-30"
+  },
+  {
+    "model_id": "mistral-large",
+    "provider": "amazon-bedrock",
+    "provider_type": "aggregator",
+    "input_price_per_1m": 10.4,
+    "output_price_per_1m": 31.2,
+    "last_verified": "2026-04-30"
+  },
+  {
+    "model_id": "mixtral-8x7b",
+    "provider": "amazon-bedrock",
+    "provider_type": "aggregator",
+    "input_price_per_1m": 0.59,
+    "output_price_per_1m": 0.91,
+    "last_verified": "2026-04-30"
+  },
+  {
+    "model_id": "claude-sonnet-4",
+    "provider": "amazon-bedrock",
+    "provider_type": "aggregator",
+    "input_price_per_1m": 3.3,
+    "output_price_per_1m": 16.5,
+    "last_verified": "2026-04-30",
+    "cached_input_price_per_1m": 0.33
+  },
+  {
+    "model_id": "llama-3.3-70b",
+    "provider": "cerebras",
+    "provider_type": "aggregator",
+    "input_price_per_1m": 0.85,
+    "output_price_per_1m": 1.2,
+    "last_verified": "2026-04-30"
+  },
+  {
+    "model_id": "gpt-4o",
+    "provider": "openai",
+    "provider_type": "direct",
+    "input_price_per_1m": 5,
+    "output_price_per_1m": 15,
+    "last_verified": "2026-04-30"
+  },
+  {
+    "model_id": "claude-sonnet-4",
+    "provider": "anthropic",
+    "provider_type": "direct",
+    "input_price_per_1m": 3,
+    "output_price_per_1m": 15,
+    "last_verified": "2026-04-30",
+    "cached_input_price_per_1m": 0.3
+  },
+  {
+    "model_id": "claude-opus-4",
+    "provider": "anthropic",
+    "provider_type": "direct",
+    "input_price_per_1m": 15,
+    "output_price_per_1m": 75,
+    "last_verified": "2026-04-30",
+    "cached_input_price_per_1m": 1.5
+  },
+  {
+    "model_id": "command-r-plus",
+    "provider": "amazon-bedrock",
+    "provider_type": "aggregator",
+    "input_price_per_1m": 3,
+    "output_price_per_1m": 15,
+    "last_verified": "2026-04-30"
+  },
+  {
+    "model_id": "command-r",
+    "provider": "amazon-bedrock",
+    "provider_type": "aggregator",
+    "input_price_per_1m": 0.5,
+    "output_price_per_1m": 1.5,
+    "last_verified": "2026-04-30"
+  },
+  {
+    "model_id": "command-a",
+    "provider": "cohere_chat",
+    "provider_type": "aggregator",
+    "input_price_per_1m": 2.5,
+    "output_price_per_1m": 10,
+    "last_verified": "2026-04-30"
+  },
+  {
+    "model_id": "command-r",
+    "provider": "cohere_chat",
+    "provider_type": "aggregator",
+    "input_price_per_1m": 0.15,
+    "output_price_per_1m": 0.6,
+    "last_verified": "2026-04-30"
+  },
+  {
+    "model_id": "command-r-plus",
+    "provider": "cohere_chat",
+    "provider_type": "aggregator",
+    "input_price_per_1m": 2.5,
+    "output_price_per_1m": 10,
+    "last_verified": "2026-04-30"
+  },
+  {
+    "model_id": "deepseek-chat",
+    "provider": "deepseek",
+    "provider_type": "direct",
+    "input_price_per_1m": 0.28,
+    "output_price_per_1m": 0.42,
+    "last_verified": "2026-04-30",
+    "cached_input_price_per_1m": 0.03
+  },
+  {
+    "model_id": "deepseek-reasoner",
+    "provider": "deepseek",
+    "provider_type": "direct",
+    "input_price_per_1m": 0.28,
+    "output_price_per_1m": 0.42,
+    "last_verified": "2026-04-30",
+    "cached_input_price_per_1m": 0.03
+  },
+  {
+    "model_id": "qwen-max",
+    "provider": "dashscope",
+    "provider_type": "aggregator",
+    "input_price_per_1m": 1.6,
+    "output_price_per_1m": 6.4,
+    "last_verified": "2026-04-30"
+  },
+  {
+    "model_id": "claude-opus-4",
+    "provider": "databricks",
+    "provider_type": "aggregator",
+    "input_price_per_1m": 15,
+    "output_price_per_1m": 75,
+    "last_verified": "2026-04-30"
+  },
+  {
+    "model_id": "claude-sonnet-4",
+    "provider": "databricks",
+    "provider_type": "aggregator",
+    "input_price_per_1m": 3,
+    "output_price_per_1m": 15,
+    "last_verified": "2026-04-30"
+  },
+  {
+    "model_id": "mixtral-8x7b",
+    "provider": "databricks",
+    "provider_type": "aggregator",
+    "input_price_per_1m": 0.5,
+    "output_price_per_1m": 1,
+    "last_verified": "2026-04-30"
+  },
+  {
+    "model_id": "o1",
+    "provider": "deepinfra",
+    "provider_type": "aggregator",
+    "input_price_per_1m": 0.04,
+    "output_price_per_1m": 0.05,
+    "last_verified": "2026-04-30"
+  },
+  {
+    "model_id": "gemini-2.5-flash",
+    "provider": "deepinfra",
+    "provider_type": "aggregator",
+    "input_price_per_1m": 0.3,
+    "output_price_per_1m": 2.5,
+    "last_verified": "2026-04-30"
+  },
+  {
+    "model_id": "gemini-2.5-pro",
+    "provider": "deepinfra",
+    "provider_type": "aggregator",
+    "input_price_per_1m": 1.25,
+    "output_price_per_1m": 10,
+    "last_verified": "2026-04-30"
+  },
+  {
+    "model_id": "deepseek-r1",
+    "provider": "deepseek",
+    "provider_type": "direct",
+    "input_price_per_1m": 0.55,
+    "output_price_per_1m": 2.19,
+    "last_verified": "2026-04-30"
+  },
+  {
+    "model_id": "deepseek-v3",
+    "provider": "deepseek",
+    "provider_type": "direct",
+    "input_price_per_1m": 0.27,
+    "output_price_per_1m": 1.1,
+    "last_verified": "2026-04-30",
+    "cached_input_price_per_1m": 0.07
+  },
+  {
+    "model_id": "deepseek-r1",
+    "provider": "fireworks",
+    "provider_type": "aggregator",
+    "input_price_per_1m": 3,
+    "output_price_per_1m": 8,
+    "last_verified": "2026-04-30"
+  },
+  {
+    "model_id": "deepseek-v3",
+    "provider": "fireworks",
+    "provider_type": "aggregator",
+    "input_price_per_1m": 0.9,
+    "output_price_per_1m": 0.9,
+    "last_verified": "2026-04-30"
+  },
+  {
+    "model_id": "mixtral-8x22b",
+    "provider": "fireworks",
+    "provider_type": "aggregator",
+    "input_price_per_1m": 1.2,
+    "output_price_per_1m": 1.2,
+    "last_verified": "2026-04-30"
+  },
+  {
+    "model_id": "llama-3.1-70b",
+    "provider": "friendliai",
+    "provider_type": "aggregator",
+    "input_price_per_1m": 0.6,
+    "output_price_per_1m": 0.6,
+    "last_verified": "2026-04-30"
+  },
+  {
+    "model_id": "llama-3.1-8b",
+    "provider": "friendliai",
+    "provider_type": "aggregator",
+    "input_price_per_1m": 0.1,
+    "output_price_per_1m": 0.1,
+    "last_verified": "2026-04-30"
+  },
+  {
+    "model_id": "gpt-4.1",
+    "provider": "openai",
+    "provider_type": "direct",
+    "input_price_per_1m": 3,
+    "output_price_per_1m": 12,
+    "last_verified": "2026-04-30",
+    "cached_input_price_per_1m": 0.75
+  },
+  {
+    "model_id": "o4-mini",
+    "provider": "openai",
+    "provider_type": "direct",
+    "input_price_per_1m": 4,
+    "output_price_per_1m": 16,
+    "last_verified": "2026-04-30",
+    "cached_input_price_per_1m": 1
+  },
+  {
+    "model_id": "gemini-2.5-flash",
+    "provider": "vertex_ai-language-models",
+    "provider_type": "aggregator",
+    "input_price_per_1m": 0.3,
+    "output_price_per_1m": 2.5,
+    "last_verified": "2026-04-30",
+    "cached_input_price_per_1m": 0.03
+  },
+  {
+    "model_id": "gemini-2.5-pro",
+    "provider": "vertex_ai-language-models",
+    "provider_type": "aggregator",
+    "input_price_per_1m": 1.25,
+    "output_price_per_1m": 10,
+    "last_verified": "2026-04-30",
+    "cached_input_price_per_1m": 0.13
+  },
+  {
+    "model_id": "gemini-2.5-flash",
+    "provider": "google",
+    "provider_type": "direct",
+    "input_price_per_1m": 0.3,
+    "output_price_per_1m": 2.5,
+    "last_verified": "2026-04-30",
+    "cached_input_price_per_1m": 0.03
+  },
+  {
+    "model_id": "gemini-2.5-pro",
+    "provider": "google",
+    "provider_type": "direct",
+    "input_price_per_1m": 1.25,
+    "output_price_per_1m": 10,
+    "last_verified": "2026-04-30",
+    "cached_input_price_per_1m": 0.13
+  },
+  {
+    "model_id": "claude-opus-4",
+    "provider": "gmi",
+    "provider_type": "aggregator",
+    "input_price_per_1m": 5,
+    "output_price_per_1m": 25,
+    "last_verified": "2026-04-30"
+  },
+  {
+    "model_id": "claude-sonnet-4",
+    "provider": "gmi",
+    "provider_type": "aggregator",
+    "input_price_per_1m": 3,
+    "output_price_per_1m": 15,
+    "last_verified": "2026-04-30"
+  },
+  {
+    "model_id": "gpt-4o",
+    "provider": "gmi",
+    "provider_type": "aggregator",
+    "input_price_per_1m": 2.5,
+    "output_price_per_1m": 10,
+    "last_verified": "2026-04-30"
+  },
+  {
+    "model_id": "gpt-4-turbo",
+    "provider": "openai",
+    "provider_type": "direct",
+    "input_price_per_1m": 10,
+    "output_price_per_1m": 30,
+    "last_verified": "2026-04-30"
+  },
+  {
+    "model_id": "claude-3-opus",
+    "provider": "gradient_ai",
+    "provider_type": "aggregator",
+    "input_price_per_1m": 15,
+    "output_price_per_1m": 75,
+    "last_verified": "2026-04-30"
+  },
+  {
+    "model_id": "deepseek-r1",
+    "provider": "gradient_ai",
+    "provider_type": "aggregator",
+    "input_price_per_1m": 0.99,
+    "output_price_per_1m": 0.99,
+    "last_verified": "2026-04-30"
+  },
+  {
+    "model_id": "o3",
+    "provider": "gradient_ai",
+    "provider_type": "aggregator",
+    "input_price_per_1m": 2,
+    "output_price_per_1m": 8,
+    "last_verified": "2026-04-30"
+  },
+  {
+    "model_id": "llama-3.1-8b",
+    "provider": "groq",
+    "provider_type": "aggregator",
+    "input_price_per_1m": 0.05,
+    "output_price_per_1m": 0.08,
+    "last_verified": "2026-04-30"
+  },
+  {
+    "model_id": "llama-3.3-70b",
+    "provider": "groq",
+    "provider_type": "aggregator",
+    "input_price_per_1m": 0.59,
+    "output_price_per_1m": 0.79,
+    "last_verified": "2026-04-30"
+  },
+  {
+    "model_id": "deepseek-r1",
+    "provider": "lambda_ai",
+    "provider_type": "aggregator",
+    "input_price_per_1m": 0.2,
+    "output_price_per_1m": 0.6,
+    "last_verified": "2026-04-30"
+  },
+  {
+    "model_id": "deepseek-v3",
+    "provider": "lambda_ai",
+    "provider_type": "aggregator",
+    "input_price_per_1m": 0.2,
+    "output_price_per_1m": 0.6,
+    "last_verified": "2026-04-30"
+  },
+  {
+    "model_id": "mistral-large",
+    "provider": "bedrock_converse",
+    "provider_type": "aggregator",
+    "input_price_per_1m": 0.5,
+    "output_price_per_1m": 1.5,
+    "last_verified": "2026-04-30"
+  },
+  {
+    "model_id": "mistral-small",
+    "provider": "amazon-bedrock",
+    "provider_type": "aggregator",
+    "input_price_per_1m": 1,
+    "output_price_per_1m": 3,
+    "last_verified": "2026-04-30"
+  },
+  {
+    "model_id": "mistral-large",
+    "provider": "mistral",
+    "provider_type": "direct",
+    "input_price_per_1m": 4,
+    "output_price_per_1m": 12,
+    "last_verified": "2026-04-30"
+  },
+  {
+    "model_id": "mistral-small",
+    "provider": "mistral",
+    "provider_type": "direct",
+    "input_price_per_1m": 0.1,
+    "output_price_per_1m": 0.3,
+    "last_verified": "2026-04-30"
+  },
+  {
+    "model_id": "mixtral-8x22b",
+    "provider": "mistral",
+    "provider_type": "direct",
+    "input_price_per_1m": 2,
+    "output_price_per_1m": 6,
+    "last_verified": "2026-04-30"
+  },
+  {
+    "model_id": "mixtral-8x7b",
+    "provider": "mistral",
+    "provider_type": "direct",
+    "input_price_per_1m": 0.7,
+    "output_price_per_1m": 0.7,
+    "last_verified": "2026-04-30"
+  },
+  {
+    "model_id": "mixtral-8x22b",
+    "provider": "nscale",
+    "provider_type": "aggregator",
+    "input_price_per_1m": 0.6,
+    "output_price_per_1m": 0.6,
+    "last_verified": "2026-04-30"
+  },
+  {
+    "model_id": "o1",
+    "provider": "openai",
+    "provider_type": "direct",
+    "input_price_per_1m": 15,
+    "output_price_per_1m": 60,
+    "last_verified": "2026-04-30",
+    "cached_input_price_per_1m": 7.5
+  },
+  {
+    "model_id": "o3",
+    "provider": "openai",
+    "provider_type": "direct",
+    "input_price_per_1m": 2,
+    "output_price_per_1m": 8,
+    "last_verified": "2026-04-30",
+    "cached_input_price_per_1m": 0.5
+  },
+  {
+    "model_id": "llama-3.1-405b",
+    "provider": "oci",
+    "provider_type": "aggregator",
+    "input_price_per_1m": 10.68,
+    "output_price_per_1m": 10.68,
+    "last_verified": "2026-04-30"
+  },
+  {
+    "model_id": "llama-3.3-70b",
+    "provider": "oci",
+    "provider_type": "aggregator",
+    "input_price_per_1m": 0.72,
+    "output_price_per_1m": 0.72,
+    "last_verified": "2026-04-30"
+  },
+  {
+    "model_id": "command-a",
+    "provider": "oci",
+    "provider_type": "aggregator",
+    "input_price_per_1m": 1.56,
+    "output_price_per_1m": 1.56,
+    "last_verified": "2026-04-30"
+  },
+  {
+    "model_id": "command-r",
+    "provider": "oci",
+    "provider_type": "aggregator",
+    "input_price_per_1m": 0.15,
+    "output_price_per_1m": 0.15,
+    "last_verified": "2026-04-30"
+  },
+  {
+    "model_id": "command-r-plus",
+    "provider": "oci",
+    "provider_type": "aggregator",
+    "input_price_per_1m": 1.56,
+    "output_price_per_1m": 1.56,
+    "last_verified": "2026-04-30"
+  },
+  {
+    "model_id": "llama-3.1-70b",
+    "provider": "oci",
+    "provider_type": "aggregator",
+    "input_price_per_1m": 0.72,
+    "output_price_per_1m": 0.72,
+    "last_verified": "2026-04-30"
+  },
+  {
+    "model_id": "gemini-2.5-pro",
+    "provider": "oci",
+    "provider_type": "aggregator",
+    "input_price_per_1m": 1.25,
+    "output_price_per_1m": 10,
+    "last_verified": "2026-04-30"
+  },
+  {
+    "model_id": "gemini-2.5-flash",
+    "provider": "oci",
+    "provider_type": "aggregator",
+    "input_price_per_1m": 0.15,
+    "output_price_per_1m": 0.6,
+    "last_verified": "2026-04-30"
+  },
+  {
+    "model_id": "claude-opus-4",
+    "provider": "openrouter",
+    "provider_type": "aggregator",
+    "input_price_per_1m": 15,
+    "output_price_per_1m": 75,
+    "last_verified": "2026-04-30",
+    "cached_input_price_per_1m": 1.5
+  },
+  {
+    "model_id": "claude-sonnet-4",
+    "provider": "openrouter",
+    "provider_type": "aggregator",
+    "input_price_per_1m": 3,
+    "output_price_per_1m": 15,
+    "last_verified": "2026-04-30",
+    "cached_input_price_per_1m": 0.3
+  },
+  {
+    "model_id": "deepseek-chat",
+    "provider": "openrouter",
+    "provider_type": "aggregator",
+    "input_price_per_1m": 0.14,
+    "output_price_per_1m": 0.28,
+    "last_verified": "2026-04-30"
+  },
+  {
+    "model_id": "deepseek-v3",
+    "provider": "openrouter",
+    "provider_type": "aggregator",
+    "input_price_per_1m": 0.28,
+    "output_price_per_1m": 0.4,
+    "last_verified": "2026-04-30"
+  },
+  {
+    "model_id": "deepseek-r1",
+    "provider": "openrouter",
+    "provider_type": "aggregator",
+    "input_price_per_1m": 0.55,
+    "output_price_per_1m": 2.19,
+    "last_verified": "2026-04-30"
+  },
+  {
+    "model_id": "gemini-2.5-flash",
+    "provider": "openrouter",
+    "provider_type": "aggregator",
+    "input_price_per_1m": 0.3,
+    "output_price_per_1m": 2.5,
+    "last_verified": "2026-04-30"
+  },
+  {
+    "model_id": "gemini-2.5-pro",
+    "provider": "openrouter",
+    "provider_type": "aggregator",
+    "input_price_per_1m": 1.25,
+    "output_price_per_1m": 10,
+    "last_verified": "2026-04-30"
+  },
+  {
+    "model_id": "mistral-large",
+    "provider": "openrouter",
+    "provider_type": "aggregator",
+    "input_price_per_1m": 0.5,
+    "output_price_per_1m": 1.5,
+    "last_verified": "2026-04-30"
+  },
+  {
+    "model_id": "mistral-small",
+    "provider": "openrouter",
+    "provider_type": "aggregator",
+    "input_price_per_1m": 0.1,
+    "output_price_per_1m": 0.3,
+    "last_verified": "2026-04-30"
+  },
+  {
+    "model_id": "mixtral-8x22b",
+    "provider": "openrouter",
+    "provider_type": "aggregator",
+    "input_price_per_1m": 0.65,
+    "output_price_per_1m": 0.65,
+    "last_verified": "2026-04-30"
+  },
+  {
+    "model_id": "gpt-4.1",
+    "provider": "openrouter",
+    "provider_type": "aggregator",
+    "input_price_per_1m": 2,
+    "output_price_per_1m": 8,
+    "last_verified": "2026-04-30",
+    "cached_input_price_per_1m": 0.5
+  },
+  {
+    "model_id": "gpt-4o",
+    "provider": "openrouter",
+    "provider_type": "aggregator",
+    "input_price_per_1m": 2.5,
+    "output_price_per_1m": 10,
+    "last_verified": "2026-04-30"
+  },
+  {
+    "model_id": "o1",
+    "provider": "openrouter",
+    "provider_type": "aggregator",
+    "input_price_per_1m": 15,
+    "output_price_per_1m": 60,
+    "last_verified": "2026-04-30",
+    "cached_input_price_per_1m": 7.5
+  },
+  {
+    "model_id": "o3",
+    "provider": "openrouter",
+    "provider_type": "aggregator",
+    "input_price_per_1m": 1.1,
+    "output_price_per_1m": 4.4,
+    "last_verified": "2026-04-30"
+  },
+  {
+    "model_id": "llama-3.1-70b",
+    "provider": "perplexity",
+    "provider_type": "direct",
+    "input_price_per_1m": 1,
+    "output_price_per_1m": 1,
+    "last_verified": "2026-04-30"
+  },
+  {
+    "model_id": "llama-3.1-8b",
+    "provider": "perplexity",
+    "provider_type": "direct",
+    "input_price_per_1m": 0.2,
+    "output_price_per_1m": 0.2,
+    "last_verified": "2026-04-30"
+  },
+  {
+    "model_id": "mixtral-8x7b",
+    "provider": "perplexity",
+    "provider_type": "direct",
+    "input_price_per_1m": 0.07,
+    "output_price_per_1m": 0.28,
+    "last_verified": "2026-04-30"
+  },
+  {
+    "model_id": "mixtral-8x7b",
+    "provider": "replicate",
+    "provider_type": "aggregator",
+    "input_price_per_1m": 0.3,
+    "output_price_per_1m": 1,
+    "last_verified": "2026-04-30"
+  },
+  {
+    "model_id": "gpt-4o",
+    "provider": "replicate",
+    "provider_type": "aggregator",
+    "input_price_per_1m": 2.5,
+    "output_price_per_1m": 10,
+    "last_verified": "2026-04-30"
+  },
+  {
+    "model_id": "o4-mini",
+    "provider": "replicate",
+    "provider_type": "aggregator",
+    "input_price_per_1m": 1,
+    "output_price_per_1m": 4,
+    "last_verified": "2026-04-30"
+  },
+  {
+    "model_id": "o1",
+    "provider": "replicate",
+    "provider_type": "aggregator",
+    "input_price_per_1m": 1.1,
+    "output_price_per_1m": 4.4,
+    "last_verified": "2026-04-30"
+  },
+  {
+    "model_id": "deepseek-v3",
+    "provider": "replicate",
+    "provider_type": "aggregator",
+    "input_price_per_1m": 1.45,
+    "output_price_per_1m": 1.45,
+    "last_verified": "2026-04-30"
+  },
+  {
+    "model_id": "gpt-4.1",
+    "provider": "replicate",
+    "provider_type": "aggregator",
+    "input_price_per_1m": 2,
+    "output_price_per_1m": 8,
+    "last_verified": "2026-04-30"
+  },
+  {
+    "model_id": "gemini-2.5-flash",
+    "provider": "replicate",
+    "provider_type": "aggregator",
+    "input_price_per_1m": 2.5,
+    "output_price_per_1m": 2.5,
+    "last_verified": "2026-04-30"
+  },
+  {
+    "model_id": "deepseek-r1",
+    "provider": "replicate",
+    "provider_type": "aggregator",
+    "input_price_per_1m": 3.75,
+    "output_price_per_1m": 10,
+    "last_verified": "2026-04-30"
+  },
+  {
+    "model_id": "claude-3-opus",
+    "provider": "vercel_ai_gateway",
+    "provider_type": "aggregator",
+    "input_price_per_1m": 15,
+    "output_price_per_1m": 75,
+    "last_verified": "2026-04-30",
+    "cached_input_price_per_1m": 1.5
+  },
+  {
+    "model_id": "claude-3-5-sonnet",
+    "provider": "vercel_ai_gateway",
+    "provider_type": "aggregator",
+    "input_price_per_1m": 3,
+    "output_price_per_1m": 15,
+    "last_verified": "2026-04-30",
+    "cached_input_price_per_1m": 0.3
+  },
+  {
+    "model_id": "claude-opus-4",
+    "provider": "vercel_ai_gateway",
+    "provider_type": "aggregator",
+    "input_price_per_1m": 15,
+    "output_price_per_1m": 75,
+    "last_verified": "2026-04-30",
+    "cached_input_price_per_1m": 1.5
+  },
+  {
+    "model_id": "claude-sonnet-4",
+    "provider": "vercel_ai_gateway",
+    "provider_type": "aggregator",
+    "input_price_per_1m": 3,
+    "output_price_per_1m": 15,
+    "last_verified": "2026-04-30",
+    "cached_input_price_per_1m": 0.3
+  },
+  {
+    "model_id": "command-a",
+    "provider": "vercel_ai_gateway",
+    "provider_type": "aggregator",
+    "input_price_per_1m": 2.5,
+    "output_price_per_1m": 10,
+    "last_verified": "2026-04-30"
+  },
+  {
+    "model_id": "command-r",
+    "provider": "vercel_ai_gateway",
+    "provider_type": "aggregator",
+    "input_price_per_1m": 0.15,
+    "output_price_per_1m": 0.6,
+    "last_verified": "2026-04-30"
+  },
+  {
+    "model_id": "command-r-plus",
+    "provider": "vercel_ai_gateway",
+    "provider_type": "aggregator",
+    "input_price_per_1m": 2.5,
+    "output_price_per_1m": 10,
+    "last_verified": "2026-04-30"
+  },
+  {
+    "model_id": "deepseek-r1",
+    "provider": "vercel_ai_gateway",
+    "provider_type": "aggregator",
+    "input_price_per_1m": 0.55,
+    "output_price_per_1m": 2.19,
+    "last_verified": "2026-04-30"
+  },
+  {
+    "model_id": "deepseek-v3",
+    "provider": "vercel_ai_gateway",
+    "provider_type": "aggregator",
+    "input_price_per_1m": 0.9,
+    "output_price_per_1m": 0.9,
+    "last_verified": "2026-04-30"
+  },
+  {
+    "model_id": "gemini-2.5-flash",
+    "provider": "vercel_ai_gateway",
+    "provider_type": "aggregator",
+    "input_price_per_1m": 0.3,
+    "output_price_per_1m": 2.5,
+    "last_verified": "2026-04-30"
+  },
+  {
+    "model_id": "gemini-2.5-pro",
+    "provider": "vercel_ai_gateway",
+    "provider_type": "aggregator",
+    "input_price_per_1m": 2.5,
+    "output_price_per_1m": 10,
+    "last_verified": "2026-04-30"
+  },
+  {
+    "model_id": "llama-3.1-70b",
+    "provider": "vercel_ai_gateway",
+    "provider_type": "aggregator",
+    "input_price_per_1m": 0.72,
+    "output_price_per_1m": 0.72,
+    "last_verified": "2026-04-30"
+  },
+  {
+    "model_id": "llama-3.1-8b",
+    "provider": "vercel_ai_gateway",
+    "provider_type": "aggregator",
+    "input_price_per_1m": 0.05,
+    "output_price_per_1m": 0.08,
+    "last_verified": "2026-04-30"
+  },
+  {
+    "model_id": "llama-3.3-70b",
+    "provider": "vercel_ai_gateway",
+    "provider_type": "aggregator",
+    "input_price_per_1m": 0.72,
+    "output_price_per_1m": 0.72,
+    "last_verified": "2026-04-30"
+  },
+  {
+    "model_id": "mistral-large",
+    "provider": "vercel_ai_gateway",
+    "provider_type": "aggregator",
+    "input_price_per_1m": 2,
+    "output_price_per_1m": 6,
+    "last_verified": "2026-04-30"
+  },
+  {
+    "model_id": "mistral-small",
+    "provider": "vercel_ai_gateway",
+    "provider_type": "aggregator",
+    "input_price_per_1m": 0.1,
+    "output_price_per_1m": 0.3,
+    "last_verified": "2026-04-30"
+  },
+  {
+    "model_id": "mixtral-8x22b",
+    "provider": "vercel_ai_gateway",
+    "provider_type": "aggregator",
+    "input_price_per_1m": 1.2,
+    "output_price_per_1m": 1.2,
+    "last_verified": "2026-04-30"
+  },
+  {
+    "model_id": "gpt-4-turbo",
+    "provider": "vercel_ai_gateway",
+    "provider_type": "aggregator",
+    "input_price_per_1m": 10,
+    "output_price_per_1m": 30,
+    "last_verified": "2026-04-30"
+  },
+  {
+    "model_id": "gpt-4.1",
+    "provider": "vercel_ai_gateway",
+    "provider_type": "aggregator",
+    "input_price_per_1m": 2,
+    "output_price_per_1m": 8,
+    "last_verified": "2026-04-30",
+    "cached_input_price_per_1m": 0.5
+  },
+  {
+    "model_id": "gpt-4o",
+    "provider": "vercel_ai_gateway",
+    "provider_type": "aggregator",
+    "input_price_per_1m": 2.5,
+    "output_price_per_1m": 10,
+    "last_verified": "2026-04-30",
+    "cached_input_price_per_1m": 1.25
+  },
+  {
+    "model_id": "o1",
+    "provider": "vercel_ai_gateway",
+    "provider_type": "aggregator",
+    "input_price_per_1m": 15,
+    "output_price_per_1m": 60,
+    "last_verified": "2026-04-30",
+    "cached_input_price_per_1m": 7.5
+  },
+  {
+    "model_id": "o3",
+    "provider": "vercel_ai_gateway",
+    "provider_type": "aggregator",
+    "input_price_per_1m": 2,
+    "output_price_per_1m": 8,
+    "last_verified": "2026-04-30",
+    "cached_input_price_per_1m": 0.5
+  },
+  {
+    "model_id": "o4-mini",
+    "provider": "vercel_ai_gateway",
+    "provider_type": "aggregator",
+    "input_price_per_1m": 1.1,
+    "output_price_per_1m": 4.4,
+    "last_verified": "2026-04-30",
+    "cached_input_price_per_1m": 0.28
+  },
+  {
+    "model_id": "claude-3-5-haiku",
+    "provider": "google-vertex",
+    "provider_type": "aggregator",
+    "input_price_per_1m": 1,
+    "output_price_per_1m": 5,
+    "last_verified": "2026-04-30"
+  },
+  {
+    "model_id": "claude-3-5-sonnet",
+    "provider": "google-vertex",
+    "provider_type": "aggregator",
+    "input_price_per_1m": 3,
+    "output_price_per_1m": 15,
+    "last_verified": "2026-04-30"
+  },
+  {
+    "model_id": "claude-3-opus",
+    "provider": "google-vertex",
+    "provider_type": "aggregator",
+    "input_price_per_1m": 15,
+    "output_price_per_1m": 75,
+    "last_verified": "2026-04-30"
+  },
+  {
+    "model_id": "claude-opus-4",
+    "provider": "google-vertex",
+    "provider_type": "aggregator",
+    "input_price_per_1m": 15,
+    "output_price_per_1m": 75,
+    "last_verified": "2026-04-30",
+    "cached_input_price_per_1m": 1.5
+  },
+  {
+    "model_id": "claude-sonnet-4",
+    "provider": "google-vertex",
+    "provider_type": "aggregator",
+    "input_price_per_1m": 3,
+    "output_price_per_1m": 15,
+    "last_verified": "2026-04-30",
+    "cached_input_price_per_1m": 0.3
+  },
+  {
+    "model_id": "deepseek-v3",
+    "provider": "vertex_ai-deepseek_models",
+    "provider_type": "aggregator",
+    "input_price_per_1m": 1.35,
+    "output_price_per_1m": 5.4,
+    "last_verified": "2026-04-30"
+  },
+  {
+    "model_id": "deepseek-r1",
+    "provider": "vertex_ai-deepseek_models",
+    "provider_type": "aggregator",
+    "input_price_per_1m": 1.35,
+    "output_price_per_1m": 5.4,
+    "last_verified": "2026-04-30"
+  },
+  {
+    "model_id": "llama-3.1-405b",
+    "provider": "vertex_ai-llama_models",
+    "provider_type": "aggregator",
+    "input_price_per_1m": 5,
+    "output_price_per_1m": 16,
+    "last_verified": "2026-04-30"
+  },
+  {
+    "model_id": "mistral-large",
+    "provider": "vertex_ai-mistral_models",
+    "provider_type": "aggregator",
+    "input_price_per_1m": 2,
+    "output_price_per_1m": 6,
+    "last_verified": "2026-04-30"
+  },
+  {
+    "model_id": "mistral-small",
+    "provider": "vertex_ai-mistral_models",
+    "provider_type": "aggregator",
+    "input_price_per_1m": 1,
+    "output_price_per_1m": 3,
+    "last_verified": "2026-04-30"
+  },
+  {
+    "model_id": "mistral-large",
+    "provider": "watsonx",
+    "provider_type": "aggregator",
+    "input_price_per_1m": 3,
+    "output_price_per_1m": 10,
+    "last_verified": "2026-04-30"
+  },
+  {
+    "model_id": "mistral-small",
+    "provider": "watsonx",
+    "provider_type": "aggregator",
+    "input_price_per_1m": 0.1,
+    "output_price_per_1m": 0.3,
+    "last_verified": "2026-04-30"
+  },
+  {
+    "model_id": "mixtral-8x7b",
+    "provider": "fireworks",
+    "provider_type": "aggregator",
+    "input_price_per_1m": 0.5,
+    "output_price_per_1m": 0.5,
+    "last_verified": "2026-04-30"
+  },
+  {
+    "model_id": "mistral-large",
+    "provider": "fireworks",
+    "provider_type": "aggregator",
+    "input_price_per_1m": 1.2,
+    "output_price_per_1m": 1.2,
+    "last_verified": "2026-04-30"
+  },
+  {
+    "model_id": "mistral-small",
+    "provider": "fireworks",
+    "provider_type": "aggregator",
+    "input_price_per_1m": 0.9,
+    "output_price_per_1m": 0.9,
+    "last_verified": "2026-04-30"
+  },
+  {
+    "model_id": "deepseek-v3",
+    "provider": "novita",
+    "provider_type": "aggregator",
+    "input_price_per_1m": 0.27,
+    "output_price_per_1m": 0.4,
+    "last_verified": "2026-04-30",
+    "cached_input_price_per_1m": 0.13
+  },
+  {
+    "model_id": "llama-3.1-8b",
+    "provider": "novita",
+    "provider_type": "aggregator",
+    "input_price_per_1m": 0.02,
+    "output_price_per_1m": 0.05,
+    "last_verified": "2026-04-30"
+  },
+  {
+    "model_id": "deepseek-r1",
+    "provider": "novita",
+    "provider_type": "aggregator",
+    "input_price_per_1m": 0.15,
+    "output_price_per_1m": 0.15,
+    "last_verified": "2026-04-30"
+  },
+  {
+    "model_id": "llama-3.3-70b",
+    "provider": "novita",
+    "provider_type": "aggregator",
+    "input_price_per_1m": 0.14,
+    "output_price_per_1m": 0.4,
+    "last_verified": "2026-04-30"
+  },
+  {
+    "model_id": "qwen-2.5-72b",
+    "provider": "novita",
+    "provider_type": "aggregator",
+    "input_price_per_1m": 0.38,
+    "output_price_per_1m": 0.4,
+    "last_verified": "2026-04-30"
+  },
+  {
+    "model_id": "o1",
+    "provider": "novita",
+    "provider_type": "aggregator",
+    "input_price_per_1m": 1.48,
+    "output_price_per_1m": 1.48,
+    "last_verified": "2026-04-30"
+  },
+  {
+    "model_id": "llama-3.1-8b",
+    "provider": "llamagate",
+    "provider_type": "aggregator",
+    "input_price_per_1m": 0.03,
+    "output_price_per_1m": 0.05,
+    "last_verified": "2026-04-30"
+  },
+  {
+    "model_id": "deepseek-r1",
+    "provider": "llamagate",
+    "provider_type": "aggregator",
+    "input_price_per_1m": 0.1,
+    "output_price_per_1m": 0.2,
+    "last_verified": "2026-04-30"
+  }
+]

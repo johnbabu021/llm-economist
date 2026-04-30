@@ -1,197 +1,813 @@
 [
   {
-    "id": "claude-4-sonnet",
-    "name": "Claude 4 Sonnet",
+    "id": "claude-3-5-haiku",
+    "name": "Claude 3.5 Haiku",
     "provider": "anthropic",
     "family": "claude",
-    "release_date": "2025-05-01",
     "context_window": 200000,
-    "max_output_tokens": 16384,
-    "capabilities": ["vision", "function_calling", "json_mode", "streaming", "pdf_input"],
-    "benchmarks": { "mmlu": 90.2, "humaneval": 93.0, "swe_bench": 65.4, "arena_elo": 1310 },
-    "use_case_scores": { "coding": 96, "creative_writing": 90, "summarization": 92, "rag": 93, "agents": 96, "math": 89, "general": 93 },
-    "open_source": false
+    "max_output_tokens": 8192,
+    "capabilities": [
+      "function_calling",
+      "json_mode",
+      "streaming"
+    ],
+    "open_source": false,
+    "release_date": "2024-10-22",
+    "benchmarks": {
+      "mmlu": 77.5,
+      "humaneval": 82,
+      "arena_elo": 1170
+    },
+    "use_case_scores": {
+      "coding": 80,
+      "creative_writing": 75,
+      "summarization": 79,
+      "rag": 80,
+      "agents": 76,
+      "math": 72,
+      "general": 78
+    }
   },
   {
-    "id": "claude-4-opus",
-    "name": "Claude 4 Opus",
-    "provider": "anthropic",
-    "family": "claude",
-    "release_date": "2025-06-01",
-    "context_window": 200000,
-    "max_output_tokens": 32768,
-    "capabilities": ["vision", "function_calling", "json_mode", "streaming", "pdf_input"],
-    "benchmarks": { "mmlu": 92.5, "humaneval": 95.0, "swe_bench": 72.0, "arena_elo": 1350 },
-    "use_case_scores": { "coding": 98, "creative_writing": 95, "summarization": 94, "rag": 95, "agents": 98, "math": 94, "general": 96 },
-    "open_source": false
-  },
-  {
-    "id": "claude-3.5-sonnet",
+    "id": "claude-3-5-sonnet",
     "name": "Claude 3.5 Sonnet",
     "provider": "anthropic",
     "family": "claude",
+    "context_window": 1000000,
+    "max_output_tokens": 8192,
+    "capabilities": [
+      "vision",
+      "function_calling",
+      "json_mode",
+      "streaming"
+    ],
+    "open_source": false,
     "release_date": "2024-10-22",
+    "benchmarks": {
+      "mmlu": 88.7,
+      "humaneval": 92,
+      "swe_bench": 49,
+      "arena_elo": 1270
+    },
+    "use_case_scores": {
+      "coding": 93,
+      "creative_writing": 88,
+      "summarization": 90,
+      "rag": 91,
+      "agents": 92,
+      "math": 85,
+      "general": 90
+    }
+  },
+  {
+    "id": "claude-3-opus",
+    "name": "Claude 3 Opus",
+    "provider": "anthropic",
+    "family": "claude",
     "context_window": 200000,
-    "max_output_tokens": 8192,
-    "capabilities": ["vision", "function_calling", "json_mode", "streaming", "pdf_input"],
-    "benchmarks": { "mmlu": 88.7, "humaneval": 92.0, "swe_bench": 49.0, "arena_elo": 1270 },
-    "use_case_scores": { "coding": 93, "creative_writing": 88, "summarization": 90, "rag": 91, "agents": 92, "math": 85, "general": 90 },
-    "open_source": false
-  },
-  {
-    "id": "gpt-4o",
-    "name": "GPT-4o",
-    "provider": "openai",
-    "family": "gpt",
-    "release_date": "2024-05-13",
-    "context_window": 128000,
-    "max_output_tokens": 16384,
-    "capabilities": ["vision", "function_calling", "json_mode", "streaming", "audio_input"],
-    "benchmarks": { "mmlu": 88.7, "humaneval": 90.2, "arena_elo": 1260 },
-    "use_case_scores": { "coding": 90, "creative_writing": 85, "summarization": 88, "rag": 89, "agents": 90, "function_calling": 95, "math": 84, "general": 89 },
-    "open_source": false
-  },
-  {
-    "id": "gpt-4o-mini",
-    "name": "GPT-4o Mini",
-    "provider": "openai",
-    "family": "gpt",
-    "release_date": "2024-07-18",
-    "context_window": 128000,
-    "max_output_tokens": 16384,
-    "capabilities": ["vision", "function_calling", "json_mode", "streaming"],
-    "benchmarks": { "mmlu": 82.0, "humaneval": 87.0, "arena_elo": 1200 },
-    "use_case_scores": { "coding": 82, "creative_writing": 78, "summarization": 83, "rag": 84, "agents": 80, "function_calling": 88, "math": 75, "general": 82 },
-    "open_source": false
-  },
-  {
-    "id": "gpt-4-turbo",
-    "name": "GPT-4 Turbo",
-    "provider": "openai",
-    "family": "gpt",
-    "release_date": "2024-04-09",
-    "context_window": 128000,
     "max_output_tokens": 4096,
-    "capabilities": ["vision", "function_calling", "json_mode", "streaming"],
-    "benchmarks": { "mmlu": 86.4, "humaneval": 87.1, "arena_elo": 1240 },
-    "use_case_scores": { "coding": 87, "creative_writing": 84, "summarization": 86, "rag": 87, "agents": 85, "function_calling": 92, "math": 82, "general": 86 },
-    "open_source": false
+    "capabilities": [
+      "vision",
+      "function_calling",
+      "json_mode",
+      "streaming"
+    ],
+    "open_source": false,
+    "release_date": "2024-02-29",
+    "benchmarks": {
+      "mmlu": 86.8,
+      "humaneval": 84.9,
+      "arena_elo": 1230
+    },
+    "use_case_scores": {
+      "coding": 86,
+      "creative_writing": 92,
+      "summarization": 88,
+      "rag": 87,
+      "agents": 85,
+      "math": 80,
+      "general": 87
+    }
   },
   {
-    "id": "gemini-2.5-pro",
-    "name": "Gemini 2.5 Pro",
-    "provider": "google",
-    "family": "gemini",
-    "release_date": "2025-03-25",
+    "id": "claude-opus-4",
+    "name": "Claude Opus 4",
+    "provider": "anthropic",
+    "family": "claude",
     "context_window": 1000000,
-    "max_output_tokens": 65536,
-    "capabilities": ["vision", "function_calling", "json_mode", "streaming", "audio_input", "code_execution"],
-    "benchmarks": { "mmlu": 90.8, "humaneval": 91.5, "swe_bench": 63.8, "arena_elo": 1300, "math": 92.0 },
-    "use_case_scores": { "coding": 94, "creative_writing": 82, "summarization": 91, "rag": 94, "agents": 93, "long_context": 98, "math": 95, "general": 92 },
-    "open_source": false
+    "max_output_tokens": 128000,
+    "capabilities": [
+      "vision",
+      "function_calling",
+      "json_mode",
+      "streaming",
+      "reasoning"
+    ],
+    "open_source": false,
+    "release_date": "2025-05-22",
+    "benchmarks": {
+      "mmlu": 92.5,
+      "humaneval": 95,
+      "swe_bench": 72,
+      "arena_elo": 1350
+    },
+    "use_case_scores": {
+      "coding": 98,
+      "creative_writing": 95,
+      "summarization": 94,
+      "rag": 95,
+      "agents": 98,
+      "math": 94,
+      "general": 96
+    }
   },
   {
-    "id": "gemini-2.0-flash",
-    "name": "Gemini 2.0 Flash",
-    "provider": "google",
-    "family": "gemini",
-    "release_date": "2025-02-05",
+    "id": "claude-sonnet-4",
+    "name": "Claude Sonnet 4",
+    "provider": "anthropic",
+    "family": "claude",
     "context_window": 1000000,
-    "max_output_tokens": 8192,
-    "capabilities": ["vision", "function_calling", "json_mode", "streaming", "audio_input"],
-    "benchmarks": { "mmlu": 85.0, "humaneval": 85.5, "arena_elo": 1220 },
-    "use_case_scores": { "coding": 84, "creative_writing": 76, "summarization": 85, "rag": 86, "agents": 82, "long_context": 95, "math": 80, "general": 83 },
-    "open_source": false
-  },
-  {
-    "id": "llama-3.3-70b",
-    "name": "Llama 3.3 70B",
-    "provider": "meta",
-    "family": "llama",
-    "release_date": "2024-12-06",
-    "context_window": 128000,
-    "max_output_tokens": 8192,
-    "capabilities": ["function_calling", "json_mode", "streaming"],
-    "benchmarks": { "mmlu": 86.0, "humaneval": 88.4, "arena_elo": 1210 },
-    "use_case_scores": { "coding": 86, "creative_writing": 80, "summarization": 84, "rag": 85, "agents": 82, "math": 78, "multilingual": 82, "general": 84 },
-    "open_source": true
-  },
-  {
-    "id": "llama-3.1-405b",
-    "name": "Llama 3.1 405B",
-    "provider": "meta",
-    "family": "llama",
-    "release_date": "2024-07-23",
-    "context_window": 128000,
-    "max_output_tokens": 8192,
-    "capabilities": ["function_calling", "json_mode", "streaming"],
-    "benchmarks": { "mmlu": 88.6, "humaneval": 89.0, "arena_elo": 1230 },
-    "use_case_scores": { "coding": 88, "creative_writing": 83, "summarization": 86, "rag": 87, "agents": 85, "math": 82, "multilingual": 85, "general": 87 },
-    "open_source": true
-  },
-  {
-    "id": "deepseek-v3",
-    "name": "DeepSeek V3",
-    "provider": "deepseek",
-    "family": "deepseek",
-    "release_date": "2024-12-26",
-    "context_window": 128000,
-    "max_output_tokens": 8192,
-    "capabilities": ["function_calling", "json_mode", "streaming"],
-    "benchmarks": { "mmlu": 87.1, "humaneval": 89.2, "arena_elo": 1250, "math": 90.2 },
-    "use_case_scores": { "coding": 91, "creative_writing": 79, "summarization": 85, "rag": 86, "agents": 84, "math": 93, "general": 86 },
-    "open_source": true
-  },
-  {
-    "id": "deepseek-r1",
-    "name": "DeepSeek R1",
-    "provider": "deepseek",
-    "family": "deepseek",
-    "release_date": "2025-01-20",
-    "context_window": 128000,
-    "max_output_tokens": 8192,
-    "capabilities": ["streaming"],
-    "benchmarks": { "mmlu": 90.8, "math": 97.3, "arena_elo": 1280 },
-    "use_case_scores": { "coding": 89, "math": 98, "agents": 78, "general": 82 },
-    "open_source": true
-  },
-  {
-    "id": "mistral-large",
-    "name": "Mistral Large",
-    "provider": "mistral",
-    "family": "mistral",
-    "release_date": "2024-11-18",
-    "context_window": 128000,
-    "max_output_tokens": 8192,
-    "capabilities": ["function_calling", "json_mode", "streaming", "vision"],
-    "benchmarks": { "mmlu": 84.0, "humaneval": 85.0, "arena_elo": 1190 },
-    "use_case_scores": { "coding": 84, "creative_writing": 82, "summarization": 83, "rag": 84, "agents": 82, "multilingual": 90, "general": 84 },
-    "open_source": false
-  },
-  {
-    "id": "mixtral-8x22b",
-    "name": "Mixtral 8x22B",
-    "provider": "mistral",
-    "family": "mixtral",
-    "release_date": "2024-04-17",
-    "context_window": 65536,
-    "max_output_tokens": 8192,
-    "capabilities": ["function_calling", "json_mode", "streaming"],
-    "benchmarks": { "mmlu": 77.8, "humaneval": 75.0, "arena_elo": 1140 },
-    "use_case_scores": { "coding": 76, "creative_writing": 74, "summarization": 78, "rag": 79, "multilingual": 85, "general": 76 },
-    "open_source": true
+    "max_output_tokens": 1000000,
+    "capabilities": [
+      "vision",
+      "function_calling",
+      "json_mode",
+      "streaming",
+      "reasoning"
+    ],
+    "open_source": false,
+    "release_date": "2025-05-22",
+    "benchmarks": {
+      "mmlu": 90.2,
+      "humaneval": 93,
+      "swe_bench": 72.7,
+      "arena_elo": 1320
+    },
+    "use_case_scores": {
+      "coding": 97,
+      "creative_writing": 90,
+      "summarization": 92,
+      "rag": 93,
+      "agents": 96,
+      "math": 89,
+      "general": 93
+    }
   },
   {
     "id": "command-r-plus",
     "name": "Command R+",
     "provider": "cohere",
     "family": "command",
-    "release_date": "2024-04-04",
     "context_window": 128000,
     "max_output_tokens": 4096,
-    "capabilities": ["function_calling", "json_mode", "streaming", "web_search"],
-    "benchmarks": { "mmlu": 75.7, "arena_elo": 1120 },
-    "use_case_scores": { "rag": 90, "summarization": 85, "multilingual": 88, "general": 78 },
-    "open_source": true
+    "capabilities": [
+      "function_calling",
+      "streaming"
+    ],
+    "open_source": true,
+    "release_date": "2024-04-04",
+    "benchmarks": {
+      "mmlu": 75.7,
+      "arena_elo": 1120
+    },
+    "use_case_scores": {
+      "rag": 90,
+      "summarization": 85,
+      "multilingual": 88,
+      "general": 78
+    }
+  },
+  {
+    "id": "gpt-4o",
+    "name": "GPT-4o",
+    "provider": "openai",
+    "family": "gpt",
+    "context_window": 131072,
+    "max_output_tokens": 16384,
+    "capabilities": [
+      "vision",
+      "function_calling",
+      "json_mode",
+      "streaming"
+    ],
+    "open_source": false,
+    "release_date": "2024-05-13",
+    "benchmarks": {
+      "mmlu": 88.7,
+      "humaneval": 90.2,
+      "arena_elo": 1260
+    },
+    "use_case_scores": {
+      "coding": 90,
+      "creative_writing": 85,
+      "summarization": 88,
+      "rag": 89,
+      "agents": 90,
+      "function_calling": 95,
+      "math": 84,
+      "general": 89
+    }
+  },
+  {
+    "id": "o1",
+    "name": "o1",
+    "provider": "openai",
+    "family": "o1",
+    "context_window": 200000,
+    "max_output_tokens": 131072,
+    "capabilities": [
+      "vision",
+      "function_calling",
+      "streaming"
+    ],
+    "open_source": false,
+    "release_date": "2024-12-17",
+    "benchmarks": {
+      "mmlu": 91.8,
+      "math": 96.4,
+      "arena_elo": 1340
+    },
+    "use_case_scores": {
+      "coding": 92,
+      "math": 97,
+      "agents": 88,
+      "general": 88
+    }
+  },
+  {
+    "id": "o3",
+    "name": "o3",
+    "provider": "openai",
+    "family": "o3",
+    "context_window": 200000,
+    "max_output_tokens": 100000,
+    "capabilities": [
+      "streaming",
+      "reasoning"
+    ],
+    "open_source": false,
+    "release_date": "2025-04-16",
+    "benchmarks": {
+      "mmlu": 92.5,
+      "math": 98,
+      "swe_bench": 69.1,
+      "arena_elo": 1370
+    },
+    "use_case_scores": {
+      "coding": 96,
+      "math": 99,
+      "agents": 94,
+      "general": 93
+    }
+  },
+  {
+    "id": "gpt-4-turbo",
+    "name": "GPT-4 Turbo",
+    "provider": "openai",
+    "family": "gpt",
+    "context_window": 128000,
+    "max_output_tokens": 4096,
+    "capabilities": [
+      "function_calling",
+      "streaming"
+    ],
+    "open_source": false,
+    "release_date": "2024-04-09",
+    "benchmarks": {
+      "mmlu": 86.4,
+      "humaneval": 87.1,
+      "arena_elo": 1240
+    },
+    "use_case_scores": {
+      "coding": 87,
+      "creative_writing": 84,
+      "summarization": 86,
+      "rag": 87,
+      "agents": 85,
+      "function_calling": 92,
+      "math": 82,
+      "general": 86
+    }
+  },
+  {
+    "id": "gpt-4.1",
+    "name": "GPT-4.1",
+    "provider": "openai",
+    "family": "gpt",
+    "context_window": 1047576,
+    "max_output_tokens": 32768,
+    "capabilities": [
+      "vision",
+      "function_calling",
+      "json_mode",
+      "streaming"
+    ],
+    "open_source": false,
+    "release_date": "2025-04-14",
+    "benchmarks": {
+      "mmlu": 90.2,
+      "humaneval": 93.4,
+      "swe_bench": 54.6,
+      "arena_elo": 1300
+    },
+    "use_case_scores": {
+      "coding": 95,
+      "creative_writing": 86,
+      "summarization": 90,
+      "rag": 92,
+      "agents": 94,
+      "function_calling": 97,
+      "math": 88,
+      "general": 92
+    }
+  },
+  {
+    "id": "mistral-large",
+    "name": "Mistral Large",
+    "provider": "mistral",
+    "family": "mistral",
+    "context_window": 262144,
+    "max_output_tokens": 262144,
+    "capabilities": [
+      "function_calling",
+      "streaming"
+    ],
+    "open_source": false,
+    "release_date": "2024-11-18",
+    "benchmarks": {
+      "mmlu": 84,
+      "humaneval": 85,
+      "arena_elo": 1190
+    },
+    "use_case_scores": {
+      "coding": 84,
+      "creative_writing": 82,
+      "summarization": 83,
+      "rag": 84,
+      "agents": 82,
+      "multilingual": 90,
+      "general": 84
+    }
+  },
+  {
+    "id": "o4-mini",
+    "name": "o4 Mini",
+    "provider": "openai",
+    "family": "o4",
+    "context_window": 200000,
+    "max_output_tokens": 100000,
+    "capabilities": [
+      "vision",
+      "function_calling",
+      "json_mode",
+      "streaming",
+      "reasoning"
+    ],
+    "open_source": false,
+    "release_date": "2025-04-16",
+    "benchmarks": {
+      "mmlu": 88.5,
+      "math": 93.4,
+      "swe_bench": 68.2,
+      "arena_elo": 1310
+    },
+    "use_case_scores": {
+      "coding": 92,
+      "math": 95,
+      "agents": 90,
+      "general": 88
+    }
+  },
+  {
+    "id": "deepseek-v3",
+    "name": "DeepSeek V3",
+    "provider": "deepseek",
+    "family": "deepseek",
+    "context_window": 163840,
+    "max_output_tokens": 163840,
+    "capabilities": [
+      "function_calling",
+      "streaming",
+      "reasoning"
+    ],
+    "open_source": true,
+    "release_date": "",
+    "benchmarks": {},
+    "use_case_scores": {}
+  },
+  {
+    "id": "deepseek-r1",
+    "name": "DeepSeek R1",
+    "provider": "deepseek",
+    "family": "deepseek",
+    "context_window": 163840,
+    "max_output_tokens": 160000,
+    "capabilities": [
+      "streaming",
+      "reasoning"
+    ],
+    "open_source": true,
+    "release_date": "",
+    "benchmarks": {},
+    "use_case_scores": {}
+  },
+  {
+    "id": "mistral-small",
+    "name": "Mistral Small",
+    "provider": "mistral",
+    "family": "mistral",
+    "context_window": 131072,
+    "max_output_tokens": 131072,
+    "capabilities": [
+      "function_calling",
+      "streaming"
+    ],
+    "open_source": false,
+    "release_date": "2024-09-18",
+    "benchmarks": {
+      "mmlu": 78,
+      "arena_elo": 1140
+    },
+    "use_case_scores": {
+      "coding": 76,
+      "creative_writing": 74,
+      "summarization": 77,
+      "rag": 78,
+      "multilingual": 84,
+      "general": 76
+    }
+  },
+  {
+    "id": "llama3-70b",
+    "name": "Llama 3 70B",
+    "provider": "meta",
+    "family": "llama3",
+    "context_window": 8192,
+    "max_output_tokens": 8192,
+    "capabilities": [
+      "streaming"
+    ],
+    "open_source": true,
+    "release_date": "",
+    "benchmarks": {},
+    "use_case_scores": {}
+  },
+  {
+    "id": "mixtral-8x7b",
+    "name": "Mixtral 8x7B",
+    "provider": "mistral",
+    "family": "mixtral",
+    "context_window": 32768,
+    "max_output_tokens": 32768,
+    "capabilities": [
+      "streaming"
+    ],
+    "open_source": true,
+    "release_date": "",
+    "benchmarks": {},
+    "use_case_scores": {}
+  },
+  {
+    "id": "llama-3.3-70b",
+    "name": "Llama 3.3 70B",
+    "provider": "meta",
+    "family": "llama",
+    "context_window": 131072,
+    "max_output_tokens": 128000,
+    "capabilities": [
+      "function_calling",
+      "streaming"
+    ],
+    "open_source": true,
+    "release_date": "2024-12-06",
+    "benchmarks": {
+      "mmlu": 86,
+      "humaneval": 88.4,
+      "arena_elo": 1210
+    },
+    "use_case_scores": {
+      "coding": 86,
+      "creative_writing": 80,
+      "summarization": 84,
+      "rag": 85,
+      "agents": 82,
+      "math": 78,
+      "multilingual": 82,
+      "general": 84
+    }
+  },
+  {
+    "id": "command-r",
+    "name": "Command R",
+    "provider": "cohere",
+    "family": "command",
+    "context_window": 128000,
+    "max_output_tokens": 4096,
+    "capabilities": [
+      "streaming"
+    ],
+    "open_source": true,
+    "release_date": "2024-03-11",
+    "benchmarks": {
+      "mmlu": 68,
+      "arena_elo": 1080
+    },
+    "use_case_scores": {
+      "rag": 85,
+      "summarization": 80,
+      "multilingual": 84,
+      "general": 72
+    }
+  },
+  {
+    "id": "command-a",
+    "name": "Command A",
+    "provider": "cohere",
+    "family": "command",
+    "context_window": 256000,
+    "max_output_tokens": 8000,
+    "capabilities": [
+      "function_calling",
+      "streaming"
+    ],
+    "open_source": true,
+    "release_date": "2025-03-13",
+    "benchmarks": {
+      "mmlu": 82,
+      "arena_elo": 1200
+    },
+    "use_case_scores": {
+      "coding": 82,
+      "rag": 92,
+      "summarization": 87,
+      "agents": 85,
+      "multilingual": 90,
+      "general": 84
+    }
+  },
+  {
+    "id": "deepseek-chat",
+    "name": "DeepSeek V3",
+    "provider": "deepseek",
+    "family": "deepseek",
+    "context_window": 163840,
+    "max_output_tokens": 163840,
+    "capabilities": [
+      "function_calling",
+      "json_mode",
+      "streaming"
+    ],
+    "open_source": true,
+    "release_date": "2024-12-26",
+    "benchmarks": {
+      "mmlu": 87.1,
+      "humaneval": 89.2,
+      "arena_elo": 1250,
+      "math": 90.2
+    },
+    "use_case_scores": {
+      "coding": 91,
+      "creative_writing": 79,
+      "summarization": 85,
+      "rag": 86,
+      "agents": 84,
+      "math": 93,
+      "general": 86
+    }
+  },
+  {
+    "id": "deepseek-reasoner",
+    "name": "DeepSeek R1",
+    "provider": "deepseek",
+    "family": "deepseek",
+    "context_window": 131072,
+    "max_output_tokens": 65536,
+    "capabilities": [
+      "json_mode",
+      "streaming",
+      "reasoning"
+    ],
+    "open_source": true,
+    "release_date": "2025-01-20",
+    "benchmarks": {
+      "mmlu": 90.8,
+      "math": 97.3,
+      "arena_elo": 1280
+    },
+    "use_case_scores": {
+      "coding": 89,
+      "math": 98,
+      "agents": 78,
+      "general": 82
+    }
+  },
+  {
+    "id": "qwen-max",
+    "name": "Qwen Max",
+    "provider": "alibaba",
+    "family": "qwen",
+    "context_window": 30720,
+    "max_output_tokens": 8192,
+    "capabilities": [
+      "function_calling",
+      "streaming",
+      "reasoning"
+    ],
+    "open_source": true,
+    "release_date": "",
+    "benchmarks": {},
+    "use_case_scores": {}
+  },
+  {
+    "id": "gemini-2.5-flash",
+    "name": "Gemini 2.5 Flash",
+    "provider": "google",
+    "family": "gemini",
+    "context_window": 1048576,
+    "max_output_tokens": 1000000,
+    "capabilities": [
+      "function_calling",
+      "streaming"
+    ],
+    "open_source": false,
+    "release_date": "2025-04-17",
+    "benchmarks": {
+      "mmlu": 86.5,
+      "humaneval": 87,
+      "arena_elo": 1240
+    },
+    "use_case_scores": {
+      "coding": 86,
+      "creative_writing": 78,
+      "summarization": 86,
+      "rag": 87,
+      "agents": 84,
+      "long_context": 95,
+      "math": 83,
+      "general": 85
+    }
+  },
+  {
+    "id": "gemini-2.5-pro",
+    "name": "Gemini 2.5 Pro",
+    "provider": "google",
+    "family": "gemini",
+    "context_window": 1048576,
+    "max_output_tokens": 1000000,
+    "capabilities": [
+      "function_calling",
+      "streaming"
+    ],
+    "open_source": false,
+    "release_date": "2025-03-25",
+    "benchmarks": {
+      "mmlu": 90.8,
+      "humaneval": 91.5,
+      "swe_bench": 63.8,
+      "arena_elo": 1300,
+      "math": 92
+    },
+    "use_case_scores": {
+      "coding": 94,
+      "creative_writing": 82,
+      "summarization": 91,
+      "rag": 94,
+      "agents": 93,
+      "long_context": 98,
+      "math": 95,
+      "general": 92
+    }
+  },
+  {
+    "id": "mixtral-8x22b",
+    "name": "Mixtral 8x22B",
+    "provider": "mistral",
+    "family": "mixtral",
+    "context_window": 65536,
+    "max_output_tokens": 65536,
+    "capabilities": [
+      "function_calling",
+      "json_mode",
+      "streaming"
+    ],
+    "open_source": true,
+    "release_date": "2024-04-17",
+    "benchmarks": {
+      "mmlu": 77.8,
+      "humaneval": 75,
+      "arena_elo": 1140
+    },
+    "use_case_scores": {
+      "coding": 76,
+      "creative_writing": 74,
+      "summarization": 78,
+      "rag": 79,
+      "multilingual": 85,
+      "general": 76
+    }
+  },
+  {
+    "id": "llama-3.1-70b",
+    "name": "Llama 3.1 70B",
+    "provider": "meta",
+    "family": "llama",
+    "context_window": 131072,
+    "max_output_tokens": 131072,
+    "capabilities": [
+      "function_calling",
+      "json_mode",
+      "streaming"
+    ],
+    "open_source": true,
+    "release_date": "2024-07-23",
+    "benchmarks": {
+      "mmlu": 83.6,
+      "humaneval": 80.5,
+      "arena_elo": 1180
+    },
+    "use_case_scores": {
+      "coding": 82,
+      "creative_writing": 77,
+      "summarization": 81,
+      "rag": 82,
+      "agents": 78,
+      "math": 74,
+      "multilingual": 80,
+      "general": 80
+    }
+  },
+  {
+    "id": "llama-3.1-8b",
+    "name": "Llama 3.1 8B",
+    "provider": "meta",
+    "family": "llama",
+    "context_window": 131072,
+    "max_output_tokens": 131072,
+    "capabilities": [
+      "function_calling",
+      "json_mode",
+      "streaming"
+    ],
+    "open_source": true,
+    "release_date": "2024-07-23",
+    "benchmarks": {
+      "mmlu": 73,
+      "humaneval": 72.6,
+      "arena_elo": 1100
+    },
+    "use_case_scores": {
+      "coding": 70,
+      "creative_writing": 65,
+      "summarization": 72,
+      "rag": 73,
+      "math": 60,
+      "general": 68
+    }
+  },
+  {
+    "id": "llama-3.1-405b",
+    "name": "Llama 3.1 405B",
+    "provider": "meta",
+    "family": "llama",
+    "context_window": 128000,
+    "max_output_tokens": 4000,
+    "capabilities": [
+      "function_calling",
+      "streaming"
+    ],
+    "open_source": true,
+    "release_date": "2024-07-23",
+    "benchmarks": {
+      "mmlu": 88.6,
+      "humaneval": 89,
+      "arena_elo": 1230
+    },
+    "use_case_scores": {
+      "coding": 88,
+      "creative_writing": 83,
+      "summarization": 86,
+      "rag": 87,
+      "agents": 85,
+      "math": 82,
+      "multilingual": 85,
+      "general": 87
+    }
+  },
+  {
+    "id": "qwen-2.5-72b",
+    "name": "Qwen 2.5 72B",
+    "provider": "alibaba",
+    "family": "qwen",
+    "context_window": 32000,
+    "max_output_tokens": 8192,
+    "capabilities": [
+      "function_calling",
+      "json_mode",
+      "streaming"
+    ],
+    "open_source": true,
+    "release_date": "",
+    "benchmarks": {},
+    "use_case_scores": {}
   }
 ]

@@ -1,0 +1,38 @@
+[
+  {
+    "id": "litellm",
+    "name": "LiteLLM",
+    "type": "gateway",
+    "features": ["fallback_routing", "load_balancing", "caching", "cost_tracking", "rate_limit_handling", "unified_api"],
+    "supported_providers": ["openai", "anthropic", "google", "amazon-bedrock", "azure-openai", "together-ai", "fireworks", "groq", "deepseek", "mistral", "cohere"],
+    "detection_files": ["litellm_config.yaml", "litellm.yaml", "litellm_proxy_config.yaml"],
+    "detection_env_vars": ["LITELLM_API_KEY", "LITELLM_MASTER_KEY"]
+  },
+  {
+    "id": "portkey",
+    "name": "Portkey",
+    "type": "gateway",
+    "features": ["fallback_routing", "load_balancing", "caching", "cost_tracking", "guardrails", "observability"],
+    "supported_providers": ["openai", "anthropic", "google", "amazon-bedrock", "azure-openai", "together-ai", "fireworks", "groq", "deepseek", "mistral"],
+    "detection_files": ["portkey.config.json", ".portkey"],
+    "detection_env_vars": ["PORTKEY_API_KEY"]
+  },
+  {
+    "id": "helicone",
+    "name": "Helicone",
+    "type": "gateway",
+    "features": ["observability", "caching", "rate_limiting", "cost_tracking", "prompt_management"],
+    "supported_providers": ["openai", "anthropic", "google", "azure-openai", "together-ai", "groq"],
+    "detection_files": [],
+    "detection_env_vars": ["HELICONE_API_KEY"]
+  },
+  {
+    "id": "openrouter",
+    "name": "OpenRouter",
+    "type": "gateway",
+    "features": ["unified_api", "fallback_routing", "model_marketplace", "oauth"],
+    "supported_providers": ["openai", "anthropic", "google", "meta", "mistral", "deepseek", "cohere"],
+    "detection_files": [],
+    "detection_env_vars": ["OPENROUTER_API_KEY"]
+  }
+]

@@ -3,10 +3,10 @@ export interface Model {
 	name: string;
 	provider: string;
 	family: string;
-	release_date: string;
+	release_date?: string;
 	context_window: number;
 	max_output_tokens: number;
-	capabilities: Capability[];
+	capabilities: string[];
 	benchmarks: Partial<Record<Benchmark, number>>;
 	use_case_scores: Partial<Record<UseCase, number>>;
 	open_source: boolean;
